@@ -1,6 +1,4 @@
-# WebDev_HW
+# Nicole Pineda
 
-## Nicole Pineda
+[Link to my Blog](https://nicolepinedawebdev.tumblr.com/)
 
-[Link to Blog] (https://nicolepinedawebdev.tumblr.com/
-)

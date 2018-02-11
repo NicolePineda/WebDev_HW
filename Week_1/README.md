@@ -1,4 +1,4 @@
 # Nicole Pineda
 
-[link to my blog] (https://nicolepinedawebdev.tumblr.com/)
+[Link to my Blog](https://nicolepinedawebdev.tumblr.com/)
 
