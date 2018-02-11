@@ -1,0 +1,190 @@
+/*font Barlow Condenses is used for navigation bar and ingredient list*/
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+
+main {
+  width: 100%;
+  margin:0 auto;
+  padding: 0px;
+  max-height: 1000px;
+
+}
+
+article {
+
+  float: left;
+  margin-right: 15px;
+
+}
+
+aside {
+  width: 250px;
+  float: left;
+  min-height: 500px;
+  }
+
+article,
+aside {
+  padding: 20px;
+  padding-left: 200px;
+  width: 700px;
+
+}
+
+
+ul.vertical-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+li a {
+  font-size: 28px;
+  display: block;
+  padding: 10px 0px;
+font-family: 'Barlow Condensed', sans-serif;
+
+}
+li b {
+  font-size: 22px;
+  color: rgb(100,100,100);
+  text-decoration: none;
+  display: block;
+  padding: 8px 0px;
+font-family: 'Barlow Condensed', sans-serif;
+text-align: center;
+margin-left: 0px;
+font-weight: 100;
+}
+
+header {
+  width: 100%;
+  padding: 0;
+  height: 0px;
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+  
+}
+/*website name or brand logo would be placed here*/
+header h1 {
+  color: #333;
+display: inline-block;
+margin: 0px 0px;
+padding: 20px;
+font-family: 'Arial';
+
+}
+
+/*this image should bleed across the page*/
+img {
+  width: 1520px;
+  padding-top: 70px;
+}
+/*h2 should be centered and in large font */
+h2 {
+  color: #333;
+display: inline-block;
+margin: -10px 350px;
+width: 700px;
+font-family: 'Arial';
+font-size: 45px;
+color: rgb(50,50,50);
+padding-bottom: 0px
+
+
+}
+/*directions header*/
+article h3 {
+  
+display: inline-block;
+margin: -20px 0;
+padding-top: 65px;
+font-family: 'Arial';
+font-size: 23px;
+color: rgb(50,50,50);
+margin-left: -80px;
+margin-bottom: 20px;
+
+}
+/*ingredients header*/
+aside h3 {
+ 
+display: inline-block;
+margin: 30px 180px;
+padding-top: 0px;
+font-family: 'Arial';
+font-size: 23px;
+color: rgb(50,50,50);
+margin-bottom: 20px;
+}
+
+/*directions paragraph list*/
+h4 {
+  color: rgb(100,100,100);
+display: inline-block;
+margin: 15px 0;
+margin-left: -80px;
+font-family: 'Arial';
+font-size: 17px;
+font-weight: 200;
+}
+
+nav {
+  float: right;
+  display: inline-block;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0 ;
+  margin: 0px ;
+  background-color: white;
+}
+
+ nav li {
+
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 18px;
+font-weight: 5px;
+height: 40px;
+line-height: 50px;
+width: 120px;
+display: inline-block;
+
+ }
+ /*it should take 0.5 seconds of hovering over a navigation
+ bar link for the block to convert to pink*/
+  nav a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+/*when mouse is hovering over navigation bar, a pink box will 
+appear and turn the font white*/
+  nav a:hover {
+    background-color: rgb(219, 153, 184);
+    color: #fff;
+  }
+
+  nav a.active {
+    background-color: white;
+    color: #444;
+  }
+.footer-social {
+ left: 0;
+  
+   width: 100%;
+   background-color: rgb(219, 153, 184);
+   color: white;
+   text-align: center;
+   height: 40px;
+   margin-top: 450px;
+   padding-bottom: 0;
+
+
+ float: right; margin-top:0px; padding:0;}
+.footer-social li { display: inline-block; margin-right: 20px}
+.footer-social span { margin-top: -20px;}
