@@ -1,3 +1,3 @@
-#Midterm Proposal
+# Midterm Proposal
 
-[Link to Proposal] https://nicolepinedawebdev.tumblr.com/post/171069906838/midterm-proposal
+[Link to Proposal](https://nicolepinedawebdev.tumblr.com/post/171069906838/midterm-proposal)
