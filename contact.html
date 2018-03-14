@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <title>Contact</title>
+  <meta content="" name="author">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="main.css" rel="stylesheet" type="text/css">
+  <link href="contact.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header>
+      <!--this is the navigation menu that would link to other parts of the website -->
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">WORK</a>
+        </li>
+        <li>
+          <a href="about.html">ABOUT</a>
+        </li>
+        <li>
+          <a href="contact.html">CONTACT</a>
+        </li>
+        <img alt="logo" id="logo" src="NPFinalLogo.png"></li>
+      </ul>
+    </nav>
+  </header>
+  <form action="#" id="sampleForm" method="post" name="sampleForm" target="_self">
+      <!-- Main Heading of Contact Page -->
+    <h1>CONTACT</h1>
+    <fieldset>
+      <!-- The user's full name goes here -->
+      <label for="Name">Name</label> <input maxlength="20" name="Name" placeholder="John Smith" type="text"><br>
+      <br>
+      <!-- The user's email address goes here -->
+      <label for="Email">Email Address</label> <input maxlength="20" name="Email" placeholder="johnsmith@gmail.com" type="text"><br>
+      <br>
+      <!-- The user's message goes here -->
+      <label for="Message">Message</label> 
+      <textarea cols="50" name="Message" rows="10"></textarea>
+    </fieldset>
+    <fieldset>
+      <!-- This button is to submit the information -->
+      <input name="Submit" type="button" value="Submit">
+    </fieldset>
+  </form>
+</body>
+</html>

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Roboto:100');
+/*This tag will scaled down and position the logo on the left corner of the 
+navigation bar*/
+
+#logo {
+  width: 55px;
+  padding: 0 10px 0 0;
+  float: left;
+  margin: 0 0 0 25px;
+  margin-top: -17px;
+}
+/*This tag will create a header the width of the screen and fix it 
+to the screen so that it stays on the top screen while the user
+scrolls through the rest of the page*/
+
+header {
+  width: 100%;
+  padding: 0;
+  height: 0px;
+  position: fixed;
+  background-color: white;
+}
+/*The following tag centers the input boxes and text on 
+the page and removes the thick border*/
+
+fieldset {
+  text-align: center;
+  border: none;
+}
+/*This ensures the navigation bar is located on the left
+corner of the header in-line block*/
+
+nav {
+  float: left;
+  display: inline-block;
+}
+/* This tag controls the contents on the header (logo and nav
+links)*/
+
+nav ul {
+  text-align: center;
+  padding: 0;
+  padding-bottom: 20px;
+  margin: 0;
+  margin-top: 0px;
+  background-color: white;
+}
+/*The following tags controls the text/links on the header*/
+
+nav li {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 5px;
+  height: 20px;
+  line-height: 20px;
+  width: 100px;
+  margin-top: 3px;
+  padding-right: 10px;
+  padding-left: 20px;
+  display: inline-block;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  text-align: center;
+  transition: all 0s;
+}
+/*When hovering over the navigation links the text will be bold*/
+
+nav a:hover {
+  font-weight: bold;
+  background-color: white;
+}
+nav a.active {
+  background-color: white;
+  color: #333;
+}
+/*The label is the text directly above the input boxes
+stating what is required to send a message*/
+
+label {
+  font-family: arial;
+  font-weight: bold;
+  color: rgb(80, 80, 80);
+  display: block;
+}
+/*This positions, scales, and designs the title text "Contact"*/
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(50, 50, 50);
+  padding-top: 80px;
+  margin-left: 415px;
+  width: 700px;
+  float: center;
+}

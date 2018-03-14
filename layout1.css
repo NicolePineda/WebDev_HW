@@ -1,0 +1,196 @@
+/*Barlow Condensed is the font of the navigation bar and Roboto Slab
+is the font for sidebar*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Barlow+Condensed');
+/*This sets the dark grey bar on the right of the page and aligns
+the sidebar links onto it*/
+
+aside {
+  position: fixed;
+  width: 270px;
+  height: 800px;
+  left: 102%;
+  top: 0%;
+  margin-left: -300px;
+  background-color: rgb(35, 35, 35);
+}
+/*This tag will scaled dow and position the logo on the left 
+corner of the navigation bar*/
+
+#logo {
+  width: 55px;
+  padding: 0 10px 0 0;
+  float: left;
+  margin-left: 25px;
+}
+/*This tag will create a header the width of the screen and fix it 
+to the screen so that it stays on the top screen while the user
+scrolls through the rest of the page*/
+
+header {
+  width: 100%;
+  padding: 0;
+  height: 0px;
+  position: fixed;
+  background-color: white;
+}
+
+/*The following tags will position the images of the work to 
+place 3 in-line and stack the rest*/
+#firstrow {
+  width: 400px;
+  padding: 60px 0 0 0;
+  margin-top: 20px;
+  margin-right: 0;
+  margin-left: 2px;
+  display: inline-block;
+  transition: all 0.4s;
+}
+
+/*When the mouse hovers on the image, it will be scaled up*/
+#firstrow:hover {
+  transform: scale(1.1);
+}
+#firstcolumn {
+  width: 400px;
+  padding: 28px 0 0 0;
+  margin-right: 0;
+  margin-left: 20px;
+  display: inline-block;
+  transition: all 0.4s;
+}
+
+/*When the mouse hovers on the image, it will be scaled up*/
+#firstcolumn:hover {
+  transform: scale(1.1);
+}
+#nextrow {
+  width: 400px;
+  padding: 0px 0 0 0;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-left: 2px;
+  display: inline-block;
+  transition: all 0.4s;
+}
+
+/*When the mouse hovers on the image, it will be scaled up*/
+#nextrow:hover {
+  transform: scale(1.1);
+}
+/*h2 should be centered and in larger font than h3 */
+
+/*h2 is the title that is placed directly below the image*/
+
+h2 {
+  display: inline-block;
+  margin-top: 10px;
+  width: 412px;
+  height: 10px;
+  text-align: center;
+  font-family: 'Arial';
+  font-size: 15px;
+  color: rgb(70, 70, 70);
+  padding-bottom: 0px;
+  text-decoration: none;
+}
+/*h3 is the subcategory folder that the work belongs in
+(programming, audio, film, design) which can also
+be accessed through the sidebar menu*/
+
+/*h3 is in Roboto Slab font, it should be a smaller font
+size and lighter shade of grey than h2*/
+
+h3 {
+  display: inline-block;
+  margin-top: 0px;
+  width: 412px;
+  font-weight: 0px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 12px;
+  color: rgb(155, 155, 155);
+  padding-bottom: 0;
+}
+/*This ensures the navigation bar is located on the left
+corner of the header in-line block*/
+
+nav {
+  float: left;
+  display: inline-block;
+}
+/* This tag controls the contents on the header (logo and nav
+links)*/
+
+nav ul {
+  text-align: center;
+  padding: 0;
+  padding-bottom: 20px;
+  margin: 0;
+  margin-top: 10px;
+  background-color: white;
+}
+/*The following tags controls the text/links on the header*/
+
+nav li {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 5px;
+  height: 20px;
+  line-height: 20px;
+  width: 100px;
+  margin-top: 20px;
+  padding-right: 10px;
+  padding-left: 20px;
+  display: inline-block;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  text-align: center;
+  transition: all 0s;
+}
+/*When hovering over the navigation links the text will be bold*/
+
+nav a:hover {
+  font-weight: bold;
+  background-color: white;
+}
+nav a.active {
+  background-color: white;
+  color: #333;
+}
+/*These tags position the specific side navigation links
+in the center of the sidebar*/
+
+ul.vertical-menu {
+  list-style-type: none;
+  padding: 0;
+}
+.vertical-menu li {
+  list-style-type: none;
+  text-align: center;
+  padding-top: 70px;
+}
+/*These tags set the style of the sidebar links*/
+
+aside a {
+  font-size: 12px;
+  color: rgb(220, 220, 220);
+  text-decoration: none;
+  padding: 10px 20px;
+  font-family: 'Roboto Slab', serif;
+  height: 300px;
+  transition: all 0.5s;
+}
+/*When hovering over sidebar navigation links, the text will
+become italic*/
+
+aside a:hover {
+  font-style: italic;
+}
+aside a.active {
+  color: white;
+  font-weight: bold;
+}

@@ -1,0 +1,140 @@
+/*Barlow Condensed is the font of the navigation bar and Roboto Slab
+is the font for sidebar*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Barlow+Condensed');
+/*This sets the dark grey bar on the right of the page and aligns
+the sidebar links onto it*/
+
+aside {
+  position: fixed;
+  width: 270px;
+  height: 800px;
+  left: 102%;
+  top: 0%;
+  margin-left: -300px;
+  /*half the width*/
+  background-color: rgb(35, 35, 35);
+}
+/*This tag will scaled dow and position the logo on the left 
+corner of the navigation bar*/
+
+#logo {
+  width: 55px;
+  padding: 0 10px 0 0;
+  float: left;
+  margin-left: 25px;
+}
+/*This tag will create a header the width of the screen and fix it 
+to the screen so that it stays on the top screen while the user
+scrolls through the rest of the page*/
+
+header {
+  width: 100%;
+  padding: 0;
+  height: 0px;
+  position: fixed;
+  background-color: white;
+}
+/*The designs will be displayed across the visible area of the
+screen, to the left of the sidebar*/
+
+#firstcolumn {
+  width: 1210px;
+  padding: 28px 0 0 0;
+  margin-right: 0;
+  margin-left: 20px;
+  display: inline-block;
+  padding-bottom: 0px;
+  margin-top: 50px;
+}
+/*This is the placement and style of the documentation of 
+the design. It will be placed directly below the design, center
+aligned, and in an Arial font*/
+
+p {
+  font-family: arial;
+  margin-right: 380px;
+  margin-left: 100px;
+  text-align: center;
+  color: rgb(120, 120, 120);
+  padding-bottom: 20px;
+}
+nav {
+  float: left;
+  display: inline-block;
+}
+/* This tag controls the contents on the header (logo and nav
+links)*/
+
+nav ul {
+  text-align: center;
+  padding: 0;
+  padding-bottom: 20px;
+  margin: 0;
+  margin-top: 10px;
+  background-color: white;
+}
+/*The following tags controls the text/links on the header*/
+
+nav li {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 5px;
+  height: 20px;
+  line-height: 20px;
+  width: 100px;
+  margin-top: 20px;
+  padding-right: 10px;
+  padding-left: 20px;
+  display: inline-block;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  text-align: center;
+  transition: all 0s;
+}
+/*When hovering over the navigation links the text will be bold*/
+
+nav a:hover {
+  font-weight: bold;
+  background-color: white;
+}
+nav a.active {
+  background-color: white;
+  color: #333;
+}
+/*These tags position the specific side navigation links
+in the center of the sidebar*/
+
+ul.vertical-menu {
+  list-style-type: none;
+  padding: 0;
+}
+.vertical-menu li {
+  list-style-type: none;
+  text-align: center;
+  padding-top: 70px;
+}
+/*These tags set the style of the sidebar links*/
+
+aside a {
+  font-size: 12px;
+  color: rgb(220, 220, 220);
+  text-decoration: none;
+  padding: 10px 20px;
+  font-family: 'Roboto Slab', serif;
+  height: 300px;
+  transition: all 0.5s;
+}
+/*When hovering over sidebar navigation links, the text will
+become italic*/
+
+aside a:hover {
+  font-style: italic;
+}
+aside a.active {
+  color: white;
+  font-weight: bold;
+}
