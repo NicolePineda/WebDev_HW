@@ -1,0 +1,126 @@
+/*Barlow Condensed is the font of the navigation bar and Roboto
+is the font for h2*/
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Roboto:100');
+/*This tag will scaled down and position the logo on the left corner of the 
+navigation bar*/
+
+#logo {
+  width: 55px;
+  padding: 0 10px 0 0;
+  float: left;
+  margin: 0 0 0 25px;
+}
+/*This tag will create a header the width of the screen and fix it 
+to the screen so that it stays on the top screen while the user
+scrolls through the rest of the page*/
+
+header {
+  width: 100%;
+  padding: 0;
+  height: 0px;
+  position: fixed;
+  background-color: white;
+}
+/*This tag makes the about image bleed across the screen*/
+
+img {
+  padding: 10px 0 0 0;
+  margin: 0;
+  width: 100%;
+}
+/*This nav tag ensures that the navigation links are placed
+on the left of the header and in-line*/
+
+
+/*This will position h1 in the center right below the image*/
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(50, 50, 50);
+  padding-top: 10px;
+  margin-left: 410px;
+  width: 700px;
+  float: center;
+}
+/*h2 is the short description of myself, it should float around
+the center and be center aligned.*/
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: rgb(130, 130, 130);
+  padding-top: 0px;
+  margin-left: 410px;
+  padding-bottom: 10px;
+  width: 700px;
+  float: center;
+  text-align: center;
+}
+
+
+/*This ensures the navigation bar is located on the left
+corner of the header in-line block*/
+
+nav {
+  float: left;
+  display: inline-block;
+}
+/* This tag controls the contents on the header (logo and nav
+links)*/
+
+nav ul {
+  text-align: center;
+  padding: 0;
+  padding-bottom: 20px;
+  margin: 0;
+  margin-top: 10px;
+  background-color: white;
+}
+/*The following tags controls the text/links on the header*/
+
+nav li {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 5px;
+  height: 20px;
+  line-height: 20px;
+  width: 100px;
+  margin-top: 20px;
+  padding-right: 10px;
+  padding-left: 20px;
+  display: inline-block;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  text-align: center;
+  transition: all 0s;
+}
+/*When hovering over the navigation links the text will be bold*/
+
+nav a:hover {
+  font-weight: bold;
+  background-color: white;
+}
+nav a.active {
+  background-color: white;
+  color: #333;
+}
+/*This tag centers the social media icons/links at the bottom center 
+of the page*/
+
+.footer-social {
+  width: 100%;
+  text-align: center;
+  height: 40px;
+  margin-top: 20px;
+  padding-bottom: 0;
+}
+.footer-social li {
+  display: inline-block;
+  margin-right: 20px;
+}
