@@ -1,4 +1,4 @@
 # Nicole Pineda
 
-[Link to my Blog](https://nicolepinedawebdev.tumblr.com/)
+[Link to my Blog](https://nicolepineda.github.io/Midterm_Project/)
 
