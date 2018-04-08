@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Best Quiz Ever</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <h1>Which Friends Character Are You?</h1>
+  <h2>Take this quiz to find out!</h2>
+ 
+  <p>How old are you?</p>
+ <div class="age">
+  <input type="number" name="age" id="age">
+</div>
+  <p>What is your favorite color?</p>
+  <div class="colors">
+ <input type="radio" name="col" value=1> <label for="">Pink</label>
+  <br>
+ <input type="radio" name="col" value=2> <label for="">Red</label>
+    <br>
+ <input type="radio" name="col" value=3> <label for="">Blue</label>
+    <br>
+ <input type="radio" name="col" value=4> <label for="">Green</label>
+  <br>
+  <input type="radio" name="col" value=5> <label for="">Orange</label>
+    <br>
+   <input type="radio" name="col" value=6> <label for="">Purple</label>
+    <br>
+ <input type="radio" name="col" value=7> <label for="">Yellow</label>
+ </div>
+   <div class="button">
+  <button id="findOut" type="submit">Find Out!</button>
+</div>
+<div id="friend"> </div>
+</body>
+  <script type="text/javascript">
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+      document.getElementById('findOut').addEventListener('click', result);
+    });
+
+    function result() {
+    
+var friends = new Array("Monica","Ross","Chandler","Rachel","Phoebe","Joey");
+
+var rand = friends[Math.floor(Math.random() * friends.length)];
+      friend.innerHTML = "You are just like " + rand + "!";
+
+var color = document.querySelector('input[name="col"]:checked').value;
+console.log(color);
+
+ 
+if (color == 1) {
+document.getElementById("friend").style.color = "pink";
+
+
+}else if (color == 2) {
+document.getElementById("friend").style.color = "red";
+
+}else if (color == 3) {
+document.getElementById("friend").style.color = "blue";
+
+
+}else if (color == 4) {
+document.getElementById("friend").style.color = "green";
+
+
+}else if (color == 5) {
+document.getElementById("friend").style.color = "orange";
+
+
+}else if (color == 6) {
+document.getElementById("friend").style.color = "purple";
+
+
+}else if (color == 7) {
+document.getElementById("friend").style.color = "yellow";
+
+
+
+}
+
+
+ }
+
+
+
+
+  </script>
+</html>
