@@ -1,0 +1,832 @@
+body {
+	margin: 0;
+	margin: auto;
+	font-family: arial;
+	background-color: rgb(237, 235, 232);
+	overflow-x: hidden;
+}
+/*logo on left of website*/
+
+.logo {
+	transition: 0.5s;
+	cursor: pointer;
+}
+.logo:hover {
+	transform: scale(1.1);
+}
+.logo {
+	width: 105px;
+	position: fixed;
+	margin: 0;
+	left: 20px;
+	top: 15px;
+}
+/*'hamburger' menu icon*/
+
+label {
+	display: block;
+	cursor: pointer;
+	margin: 0 20px 0 0;
+	font-size: 35px;
+	line-height: 70px;
+	float: right;
+	color: (50, 50, 50);
+}
+/*hamburger menu responsive*/
+
+.nav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	border-bottom: 0;
+	text-align: right;
+	height: 70px;
+	line-height: 70px;
+	transition: 0.5s;
+}
+.menu {
+	margin-left: 10%;
+	height: 850%;
+	width: 1600px;
+	background-color: white;
+	margin-right: 170px;
+	padding-top: 10%;
+	overflow-x: hidden;
+	transition: all 0.5s;
+}
+.menu a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 5em;
+	padding-right: 30px;
+	padding-top: 0;
+	transition: 0.3s;
+	font-weight: 700;
+	line-height: 120%;
+	transition: all 0.6s;
+}
+/*when you hover over navigation links in menu the links
+	will shift slightly to the left*/
+
+.menu a:hover {
+	transform: translateX(-25px);
+}
+#toggle {
+	display: none;
+}
+#toggle:checked+.menu {
+	display: block;
+	transform: translateX(1700px);
+}
+/*this is the main light gray background that shows when you open the window*/
+
+.cover {
+	text-align: left;
+	margin-left: 18%;
+	height: 100%;
+}
+h1 {
+	font-size: 7em;
+	margin-top: 20%;
+	margin-bottom: 0;
+	color: rgb(58, 58, 58);
+}
+h2 {
+	font-size: 2.7em;
+	margin-top: 0;
+	color: rgb(58, 58, 58);
+	margin-bottom: 6%;
+}
+h3 {
+	font-size: 1.2em;
+	margin-bottom: 18%;
+	color: rgb(58, 58, 58);
+	width: 30%;
+	font-weight: 1;
+	line-height: 135%;
+}
+
+
+p {
+	width: 55%;
+	margin-left: 18%;
+	text-align: left;
+	padding-top: 10%;
+}
+h4 {
+	text-align: left;
+	width: 60%;
+	display: inline-block;
+	font-size: 600%;
+	margin-left: 18%;
+}
+.about {
+	width: 100%;
+	background-color: #ffc300;
+	color: white;
+	height: 100%;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+.about h4 {
+	transition: all 1s ease;
+}
+.about.hidden h4 {
+	opacity: 0;
+	transform: translateY(60px);
+}
+.about.hidden h4 {
+	opacity: 0;
+	transform: translateY(30px);
+}
+.box-2 {
+	width: 100%;
+	background-color: white;
+	color: grey;
+	height: 100%;
+	padding: 60px 0;
+}
+.fields {
+	padding-top: 30px;
+	text-align: left;
+	width: 20%;
+	display: inline-block;
+	font-size: 3.7em;
+	margin: auto;
+	color: black;
+	font-weight: 600;
+	margin-left: 16%;
+	transition: 0.5s;
+}
+.info {
+	padding-top: 0;
+	text-align: left;
+	width: 20%;
+	display: inline-block;
+	font-size: 1.1em;
+	margin-left: 16%;
+	padding-bottom: 70px;
+	padding-right: 0;
+	line-height: 180%;
+	font-weight: 1;
+}
+.fields:hover {
+	transform: rotate(-8deg);
+}
+.fields2 {
+	text-align: left;
+	width: 20%;
+	display: inline-block;
+	font-size: 3.7em;
+	color: black;
+	font-weight: 600;
+	margin-left: 16%;
+	transition: 0.5s;
+}
+.fields2:hover {
+	transform: rotate(-8deg);
+}
+.info2 {
+	padding-top: 0;
+	text-align: left;
+	width: 20%;
+	display: inline-block;
+	font-size: 1.05em;
+	margin-left: 16%;
+	line-height: 180%;
+	padding-bottom: 100px;
+}
+#box-3 {
+	background-color: rgb(255, 58, 94);
+	color: rgba(245, 245, 245, 100);
+	width: 100%;
+	font-size: 250%;
+	padding: 290px 0;
+}
+h5 {
+	width: 100%;
+	font-size: 400%;
+	margin: auto;
+	text-align: center;
+	transition: all 0.5s;
+}
+h5:active {
+	transform: translateY(-30px);
+}
+h6 {
+	font-size: 40px;
+	text-align: center;
+	transition: 1s;
+}
+h6:hover {
+	transform: translateX(-300px);
+}
+span {
+	color: rgb(40, 40, 40);
+}
+.audio {
+	background-color: rgb(230, 230, 230);
+	width: 50%;
+	height: 500px;
+	display: inline-block;
+	align-items: center;
+}
+.audiofile {
+	width: 650px;
+	margin-left: 45px;
+	margin-top: 90px;
+	transition: all 0.7s;
+}
+.audiofile:hover {
+	transform: scale(1.1);
+}
+.text {
+	font-family: 'Dosis', sans-serif;
+	background-color: rgb(45, 45, 45);
+	margin-left: 0;
+	width: 50%;
+	height: 489px;
+	padding-top: 12px;
+	position: absolute;
+	line-height: 150%;
+	color: white;
+	font-size: 1.4em;
+}
+.audio2 {
+	background-color: rgb(230, 230, 230);
+	width: 50%;
+	height: 500px;
+	margin-left: 50%;
+}
+.audiofile2 {
+	width: 650px;
+	margin: 0 60px;
+	margin-top: 90px;
+	transition: all 0.7s;
+}
+.audiofile2:hover {
+	transform: scale(1.1);
+}
+.text2 {
+	font-family: 'Dosis', sans-serif;
+	background-color: rgb(45, 45, 45);
+	clear: left;
+	width: 50%;
+	height: 489px;
+	padding-top: 12px;
+	position: absolute;
+	display: inline-block;
+	line-height: 150%;
+	color: white;
+	font-size: 1.4em;
+	text-align: center;
+	vertical-align: middle;
+}
+#box-4 {
+	background-color: rgb(255, 131, 0);
+	color: rgba(245, 245, 245, 100);
+	width: 100%;
+	font-size: 250%;
+	padding: 290px 0;
+}
+.text3 {
+	font-family: 'Dosis', sans-serif;
+	background-color: rgb(45, 45, 45);
+	clear: left;
+	padding-bottom: 10%;
+	width: 50%;
+	height: 489px;
+	padding-top: 12px;
+	position: absolute;
+	display: inline-block;
+	line-height: 150%;
+	color: white;
+	font-size: 1.4em;
+}
+.film {
+	background-color: rgb(230, 230, 230);
+	width: 50%;
+	height: 500px;
+	display: inline-block;
+	align-items: center;
+	padding: 76px 0;
+}
+.filmfile {
+	width: 600px;
+	margin: 60px;
+	margin-top: 90px;
+	transition: all 0.7s;
+}
+.filmfile:hover {
+	transform: scale(1.1);
+}
+.text4 {
+	font-family: 'Dosis', sans-serif;
+	background-color: rgb(45, 45, 45);
+	margin-left: 0;
+	width: 50%;
+	height: 489px;
+	padding-top: 12px;
+	padding-bottom: 40px;
+	position: absolute;
+	line-height: 150%;
+	color: white;
+	font-size: 1.4em;
+}
+.film2 {
+	background-color: rgb(230, 230, 230);
+	width: 50%;
+	height: 500px;
+	margin-left: 50%;
+	padding: 20px 0;
+}
+#box-5 {
+	background-color: rgb(38, 189, 255);
+	color: rgba(245, 245, 245, 100);
+	width: 100%;
+	font-size: 250%;
+	padding: 290px 0;
+}
+.program {
+	width: 600px;
+	margin: 50px;
+	transition: all 0.7s;
+}
+.program:hover {
+	transform: scale(1.1);
+}
+.program2 {
+	width: 600px;
+	margin: 45px 75px;
+	transition: all 0.7s;
+}
+.program2:hover {
+	transform: scale(1.1);
+}
+#box-6 {
+	background-color: rgb(15, 193, 107);
+	color: rgba(245, 245, 245, 100);
+	width: 100%;
+	font-size: 250%;
+	padding: 290px 0;
+}
+.design {
+	width: 600px;
+	margin: 95px 50px;
+	padding-top: 80px;
+	transition: all 0.7s;
+	display: inline-block;
+}
+.designbox {
+	background-color: rgb(230, 230, 230);
+	width: 50%;
+	height: 560px;
+	display: inline-block;
+	align-items: center;
+}
+.text4 {
+	font-family: 'Dosis', sans-serif;
+	background-color: rgb(45, 45, 45);
+	clear: left;
+	width: 50%;
+	height: 489px;
+	position: absolute;
+	display: inline-block;
+	line-height: 150%;
+	color: white;
+	font-size: 1.4em;
+	padding-bottom: 60px;
+}
+.text5 {
+	font-family: 'Dosis', sans-serif;
+	background-color: rgb(45, 45, 45);
+	margin-left: 0;
+	width: 50%;
+	height: 529px;
+	padding-top: 12px;
+	position: absolute;
+	line-height: 150%;
+	color: white;
+	font-size: 1.4em;
+}
+#box-7 {
+	background-color: rgb(214, 214, 214);
+	color: rgb(188, 188, 188);
+	width: 100%;
+	font-size: 250%;
+	padding: 290px 0;
+}
+.contact-form {
+	text-align: center;
+}
+form {
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+.form-control {
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: rgb(65, 65, 65);
+	font-size: 18px;
+	margin-bottom: 16px;
+	font-family: arial;
+}
+input {
+	height: 45px;
+}
+form .submit {
+	background: rgb(71, 71, 71);
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 60px;
+	margin-top: 20px;
+	transition: all 0.4s ease;
+	display: inline-block;
+}
+form .submit:hover {
+	background-color: rgb(200, 200, 200);
+	color: black;
+	cursor: pointer;
+}
+
+
+
+    
+
+@media only screen and (max-width: 600px) {
+
+	body {
+		font-size: 18px;
+	}
+	.menu {
+		height: 400px;
+		padding-top: 80px;
+	}
+	.menu a {
+		font-size: 45px;
+		padding-top: 1px;
+	}
+	h1 {
+		padding-top: 90px;
+		font-size: 230%;
+	}
+	h2 {
+		padding-top: 5px;
+		font-size: 110%;
+	}
+	h3 {
+		font-size: 80%;
+		width: 65%;
+		padding-top: 20px;
+		margin-bottom: 80%;
+	}
+
+
+	p {
+	width: 55%;
+	margin-left: 18%;
+	text-align: left;
+	padding-top: 10%;
+}
+h4 {
+	text-align: left;
+	width: 100%;
+	display: inline-block;
+	font-size: 250%;
+	margin-left: 18%;
+	margin-left: 10px;
+}
+
+.about {
+	height: 100%;
+	padding:0;
+}
+
+.box-2 {
+	width: 100%;
+	background-color: white;
+	color: grey;
+	height: 80%;
+	
+}
+.fields {
+	padding-top: 30px;
+	text-align: left;
+	width: 20%;
+	display: block;
+	font-size: 2.3em;
+	margin: auto;
+	color: black;
+	font-weight: 600;
+	margin-left: 0;
+	transition: 0.5s;
+}
+.info {
+	padding-top: 0;
+	text-align: left;
+	width: 80%;
+	display: block;
+	font-size: 1.1em;
+	margin-left: 5%;
+	padding-bottom: 70px;
+	padding-right: 0;
+	line-height: 180%;
+	font-weight: 1;
+}
+.fields:hover {
+	transform: rotate(-8deg);
+}
+.fields2 {
+	text-align: left;
+	width: 20%;
+	display: block;
+	font-size: 2.3em;
+	color: black;
+	font-weight: 600;
+	margin-left: 0;
+	transition: 0.5s;
+}
+.fields2:hover {
+	transform: rotate(-8deg);
+}
+.info2 {
+	padding-top: 0;
+	text-align: left;
+	width: 80%;
+	display: block;
+	font-size: 1.05em;
+	margin-left: 5%;
+	line-height: 180%;
+	padding-bottom: 100px;
+}
+#box-3 {
+	background-color: rgb(255, 58, 94);
+	color: rgba(245, 245, 245, 100);
+	width: 100%;
+	font-size: 50%;
+	height: 80%;
+	padding: 100px 0;
+}
+h5 {
+	width: 100%;
+	font-size: 500%;
+	margin: auto;
+	text-align: center;
+
+}
+h5:active {
+	transform: translateY(-30px);
+}
+h6 {
+	font-size: 40px;
+	text-align: center;
+	transition: 1s;
+}
+h6:hover {
+	transform: translateX(-300px);
+}
+span {
+	color: rgb(40, 40, 40);
+}
+.audio {
+	background-color: rgb(230, 230, 230);
+	width: 100%;
+	height: 100%;
+	display: block;
+	align-items: center;
+}
+.audiofile {
+width: 100%;
+	margin: 0;
+}
+.audiofile:hover {
+	transform: scale(1.1);
+}
+.text {
+	font-family: 'Dosis', sans-serif;
+	background-color: rgb(45, 45, 45);
+	margin-left: 0;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 5px;
+margin-top: 2px;
+position: relative;
+	line-height: 150%;
+	color: white;
+	font-size: 1em;
+	display: block;
+}
+.audio2 {
+width: 100%;
+	margin: 0;
+}
+.audiofile2 {
+width: 100%;
+	margin: 0;
+}
+
+.text2 {
+	font-family: 'Dosis', sans-serif;
+	background-color: rgb(45, 45, 45);
+	clear: left;
+	width: 100%;
+	height: 489px;
+	padding-top: 12px;
+	position: relative;
+	display: block;
+	line-height: 150%;
+	color: white;
+	font-size: 1em;
+
+	vertical-align: middle;
+}
+#box-4 {
+	background-color: rgb(255, 131, 0);
+	color: rgba(245, 245, 245, 100);
+	width: 100%;
+font-size: 0.5em;
+height: 80%;
+padding: 100px 0;
+	
+}
+.text3 {
+	font-family: 'Dosis', sans-serif;
+	background-color: rgb(45, 45, 45);
+	clear: left;
+	padding-bottom: 10%;
+	width: 100%;
+	height: 100%;
+	padding-top: 12px;
+	position: relative;
+	display: block;
+	line-height: 150%;
+
+	font-size: 1em;
+}
+.film {
+	background-color: rgb(230, 230, 230);
+	width: 100%;
+	height: 1%;
+	display: block;
+	align-items: center;
+	padding: 0;
+}
+.filmfile {
+	width: 100%;
+	margin: 0;
+	
+}
+
+.text4 {
+	font-family: 'Dosis', sans-serif;
+	background-color: rgb(45, 45, 45);
+	margin-left: 0;
+	width: 100%;
+	height: 100%;
+	padding-top: 12px;
+	padding-bottom: 40px;
+	position: relative;
+	line-height: 150%;
+	color: white;
+	font-size: 1.4em;
+	display: block;
+}
+.film2 {
+	background-color: rgb(230, 230, 230);
+	width: 100%;
+	margin:0;
+	margin-left: 0;
+	padding: 0;
+}
+#box-5 {
+	background-color: rgb(38, 189, 255);
+	color: rgba(245, 245, 245, 100);
+	width: 100%;
+	font-size: 0.4em;
+	height: 30%;
+	margin: 0;
+	padding: 100px 0;
+}
+.program {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+.program2 {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+#box-6 {
+	background-color: rgb(15, 193, 107);
+	color: rgba(245, 245, 245, 100);
+	width: 100%;
+	font-size: 0.5em;
+	height: 50%;
+	margin: 0;
+padding: 100px 0;
+}
+.design {
+	width: 90%;
+	margin: 0;
+	padding-top: 60px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	transition: all 0.7s;
+	display: block;
+}
+.designbox {
+	background-color: rgb(230, 230, 230);
+	width: 100%;
+	height: 100%;
+	display:block;
+	align-items: center;
+	margin: 0;
+}
+.text4 {
+	font-family: 'Dosis', sans-serif;
+	background-color: rgb(45, 45, 45);
+	clear: left;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: block;
+	line-height: 150%;
+	color: white;
+	font-size: 1em;
+margin: 0 auto;
+}
+.text5 {
+	font-family: 'Dosis', sans-serif;
+	background-color: rgb(45, 45, 45);
+	margin-left: 0;
+	width: 100%;
+	height: 100%;
+	padding-top: 12px;
+	position: relative;
+	display: block;
+	line-height: 150%;
+	color: white;
+	font-size: 1em;
+}
+#box-7 {
+	background-color: rgb(214, 214, 214);
+	color: rgb(188, 188, 188);
+	width: 100%;
+	font-size: 0.5em;
+	height: 100%;
+	padding: 100px 0;
+}
+.contact-form {
+	text-align: center;
+}
+form {
+	margin-top: 50px;
+	
+}
+.form-control {
+	width: 90%;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: rgb(65, 65, 65);
+	font-size: 18px;
+	margin-bottom: 16px;
+	font-family: arial;
+}
+input {
+	height: 45px;
+}
+form .submit {
+	background: rgb(71, 71, 71);
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 60px;
+	margin-top: 20px;
+	transition: all 0.4s ease;
+	display: inline-block;
+}
+form .submit:hover {
+	background-color: rgb(200, 200, 200);
+	color: black;
+	cursor: pointer;
+}
+
+}
+
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
