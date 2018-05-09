@@ -2,5 +2,5 @@
 
 [Link to Live Website](https://nicolepineda.github.io/FINAL/)
 <br>
-[Link to Blog](https://nicolepinedawebdev.tumblr.com/post/173502550493/final-project)
+[Link to Documentation](https://nicolepinedawebdev.tumblr.com/post/173502550493/final-project)
 
